@@ -3,3 +3,7 @@
 -Began initial project
 -Imported Simple2DPlatformer Assets
 -Created initial spawn area / playable character model / walls
+-Created Bird.cs (Player movement script)
+    -Bird is now capable of "flying" via pressing spacebar
+    -Bird is capable of staying on the ground
+    
