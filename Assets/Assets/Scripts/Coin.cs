@@ -15,6 +15,7 @@ public class Coin : MonoBehaviour
 
     public GameObject coin;
     public float speed;
+    public int score = 0;
 
     void Update()
     {
@@ -33,6 +34,7 @@ public class Coin : MonoBehaviour
         {
             Debug.Log("HIDING COIN");
             gameObject.SetActive(false);
+            score += 1;
         }
     }
 
