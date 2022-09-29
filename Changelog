@@ -6,4 +6,18 @@
 -Created Bird.cs (Player movement script)
     -Bird is now capable of "flying" via pressing spacebar
     -Bird is capable of staying on the ground
-    
+9/29/2022
+------------------------------
+-Created Coin.cs
+    -Coin will now disappear upon contact with an object with the "Bird" tag
+    -Coin will move right to left at a rate of the "speed" variable
+-Created Wall.cs
+    -Wall will move right to left at a rate of the "speed" variable
+    -Game will freeze time upon contact with an object with the "Bird" tag
+    -Wall will now disappear after leaving the game screen's borders
+-Created ScoreUI.cs
+    -Created a simplistic UI that will increase upon making contact with a coin (Only 1 score is available as of now[BUG])
+-Created WallSpawner.cs
+    -Began designing a process to spawn a wall at a certain Y value
+    -Created a prefab for the script to replicate and place at random values
+------------------------------
