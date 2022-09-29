@@ -20,4 +20,6 @@
 -Created WallSpawner.cs
     -Began designing a process to spawn a wall at a certain Y value
     -Created a prefab for the script to replicate and place at random values
+    -Walls will now randomly generate inbetween the two values designated in the script
+    -Walls will generate at a rate of "spawnTime" that is designated in the Inspector
 ------------------------------
